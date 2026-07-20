@@ -14,12 +14,12 @@ export default function Home() {
         {/* Hero */}
         <section className="hero nui-p-6">
           <Image
-            src="/profile.jpg"
-            alt="Anushka Burade"
-            width={180}
-            height={180}
-            className="profile"
-          />
+              src="/profile.jpeg"
+              alt="Anushka Burade"
+              width={180}
+              height={180}
+              className="profile"
+            />
 
           <h1>Hi, I&apos;m Anushka Burade 👋</h1>
 
@@ -37,8 +37,8 @@ export default function Home() {
             </Button>
 
             <Button>
-              <a
-                href="/resume.pdf"
+              <a 
+                href="/Resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
               >
