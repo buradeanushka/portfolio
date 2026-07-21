@@ -13,14 +13,13 @@ export default function Home() {
       <main className="container">
         {/* Hero */}
         <section className="hero nui-p-6">
-          <Image
-              src="/profile.jpeg"
-              alt="Anushka Burade"
-              width={180}
-              height={180}
-              className="profile"
-            />
-
+<Image
+  src="/profile.jpg"
+  alt="Anushka Burade"
+  width={180}
+  height={180}
+  className="profile"
+/>
           <h1>Hi, I&apos;m Anushka Burade 👋</h1>
 
           <h2>BCA Student • Frontend Developer • AI Enthusiast</h2>
@@ -35,7 +34,7 @@ export default function Home() {
             <Button>
               <a href="#projects">View Projects</a>
             </Button>
-
+ 
             <Button>
               <a 
                 href="/resume.pdf"
